@@ -27,20 +27,6 @@
   </style>
 </head>
 <body>
-  <img id="main-photo" src="photo.jpg" alt="Full Screen Photo">
-  <script>
-    let showingPhoto1 = false;
-    setInterval(() => {
-      const img = document.getElementById('main-photo');
-      if (img) {
-        if (showingPhoto1) {
-          img.src = "photo.jpg";
-        } else {
-          img.src = "photo1.jpg";
-        }
-        showingPhoto1 = !showingPhoto1;
-      }
-    }, 60000); // 60000 milliseconds = 1 minute
-  </script>
+  <img src="photo1.jpg" alt="Full Screen Photo">
 </body>
 </html>
