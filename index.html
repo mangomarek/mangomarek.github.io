@@ -1,8 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Slideshow Homepage</title>
+  <title>Full Screen Image</title>
+  <meta http-equiv="refresh" content="120">
   <style>
     html, body {
       height: 100%;
@@ -24,15 +23,3 @@
     }
   </style>
 </head>
-<body>
-  <img id="slideshow" src="photo.jpg" alt="Slideshow Image">
-  <script>
-    const images = ["photo.jpg", "photo1.jpg"];
-    let index = 0;
-    setInterval(() => {
-      index = (index + 1) % images.length;
-      document.getElementById("slideshow").src = images[index];
-    }, 10000); // 10,000 ms = 10 seconds
-  </script>
-</body>
-</html>
