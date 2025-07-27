@@ -1,0 +1,28 @@
+name: Rotate Daily Image
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs at midnight UTC every day
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pick a random image and update daily.jpg
+        run: |
+          images=(images/*.jpg)
+          count=${#images[@]}
+          if [ $count -eq 0 ]; then
+            echo "No images found!"
+            exit 1
+          fi
+          random_index=$((RANDOM % count))
+          cp "${images[$random_index]}" daily.jpg
+      - name: Commit and push if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add daily.jpg
+          git commit -m "Update daily image" || exit 0
+          git push
