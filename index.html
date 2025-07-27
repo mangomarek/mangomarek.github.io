@@ -2,31 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Full Screen Photo</title>
+  <title>Fullscreen Daily Image</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     html, body {
       height: 100%;
       margin: 0;
       padding: 0;
-      background: #000;
+      overflow: hidden;
     }
     body {
       width: 100vw;
       height: 100vh;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      justify-content: center;
     }
-    img {
+    .fullscreen-img {
+      position: fixed;
+      top: 0;
+      left: 0;
       width: 100vw;
       height: 100vh;
       object-fit: cover;
-      display: block;
+      object-position: center;
+      z-index: -1;
+      /* Optional: smooths edges on some devices */
+      image-rendering: auto;
     }
   </style>
 </head>
 <body>
-  <img src="daily.jpg" alt="Daily Picture" style="max-width:100%;">
+  <img src="daily.jpg" alt="Fullscreen" class="fullscreen-img">
+  <!-- You can add overlay content here if needed -->
 </body>
 </html>
