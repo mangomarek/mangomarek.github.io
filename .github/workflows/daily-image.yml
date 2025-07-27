@@ -2,7 +2,8 @@ name: Rotate Daily Image
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs at midnight UTC every day
+    - cron: '0 0 * * *'  # runs daily at midnight UTC
+  workflow_dispatch:
 
 jobs:
   rotate:
