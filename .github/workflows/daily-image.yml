@@ -1,11 +1,3 @@
-jobs:
-  rotate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-      
 name: Rotate Daily Image
 
 on:
@@ -18,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - name: Pick a random image and update daily.jpg
         run: |
           shopt -s nullglob
