@@ -1,1 +1,2 @@
 images/photo (1).jpg
+images/photo.jpg
