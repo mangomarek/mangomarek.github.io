@@ -3,3 +3,4 @@ images/photo.jpg
 images/photo (5).jpg
 images/photo (4).jpg
 images/photo (Janko.Maricel).jpg
+images/photo (3).jpg
