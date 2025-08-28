@@ -2,3 +2,4 @@ images/photo (Janko.Maricel).jpg
 images/photo (6).jpg
 images/photo (2).jpg
 images/photo (8).jpg
+images/photo (12).jpg
