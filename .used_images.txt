@@ -4,3 +4,4 @@ images/photo (15).jpg
 images/photo (2).jpg
 images/photo (11).jpg
 images/photo (5).jpg
+images/photo.jpg
