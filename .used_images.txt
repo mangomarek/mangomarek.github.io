@@ -14,3 +14,4 @@ images/photo (Janko.Maricel).jpg
 images/photo (11).jpg
 images/photo (6).jpg
 images/photo (17).jpg
+images/photo (18).jpg
