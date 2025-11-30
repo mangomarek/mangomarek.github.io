@@ -32,3 +32,4 @@ images/photo (27).jpg
 images/photo (25).jpg
 images/photo (22).jpg
 images/photo.jpg
+images/photo (31).jpg
