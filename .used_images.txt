@@ -2,3 +2,4 @@ images/photo (30).jpg
 images/photo (16).jpg
 images/photo (5).jpg
 images/photo (13).jpg
+images/photo (12).jpg
