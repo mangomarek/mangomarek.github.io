@@ -24,3 +24,4 @@ images/photo (14).jpg
 images/photo (33).jpg
 images/photo (32).jpg
 images/photo (2).jpg
+images/photo (25).jpg
