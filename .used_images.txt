@@ -8,3 +8,4 @@ images/photo (8).jpg
 images/photo (11).jpg
 images/photo (20).jpg
 images/photo (22).jpg
+images/photo (3).jpg
