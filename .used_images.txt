@@ -9,3 +9,4 @@ images/photo (27).jpg
 images/photo (9).jpg
 images/photo (26).jpg
 images/photo (28).jpg
+images/photo (7).jpg
