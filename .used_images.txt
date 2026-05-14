@@ -18,3 +18,4 @@ images/photo (12).jpg
 images/photo (30).jpg
 images/photo (3).jpg
 images/photo (6).jpg
+images/photo (14).jpg
