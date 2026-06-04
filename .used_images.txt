@@ -1,2 +1,3 @@
 images/photo (4).jpg
 images/photo (33).jpg
+images/photo (34).jpg
