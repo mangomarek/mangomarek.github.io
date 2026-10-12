@@ -1,0 +1,3 @@
+git rm images/photo (1)
+git commit
+git push
