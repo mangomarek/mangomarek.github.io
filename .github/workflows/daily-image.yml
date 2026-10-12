@@ -1,4 +1,4 @@
-name: Rotate Daily Image
+name: Rotate Daily Image NEW
 
 on:
   schedule:
