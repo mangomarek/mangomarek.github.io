@@ -5,3 +5,4 @@ images/photo 5.jpg
 images/photo 6.jpg
 images/photo 8.jpg
 images/photo 9.jpg
+images/photo 3.jpg
