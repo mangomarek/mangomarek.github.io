@@ -7,3 +7,4 @@ images/photo 23.jpg
 images/photo 3.jpg
 images/photo 10.jpg
 images/photo 15.jpg
+images/photo 14.jpg
