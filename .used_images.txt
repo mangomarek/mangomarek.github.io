@@ -12,3 +12,4 @@ images/photo 16.jpg
 images/photo 22.jpg
 images/photo 21.jpg
 images/photo 2.jpg
+images/photo 6.jpg
