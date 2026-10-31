@@ -18,3 +18,4 @@ images/photo 7.jpg
 images/photo 11.jpg
 images/photo 17.jpg
 images/photo 19.jpg
+images/photo 18.jpg
